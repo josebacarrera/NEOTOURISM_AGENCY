@@ -112,6 +112,11 @@
       transition: opacity 250ms ease-in-out 250ms;
   }
 
+  .logo {
+    height: 8em;
+    width: 10em;
+  }
+
   /* mediaquery */
 
 @media screen and (min-width: 800px) {
