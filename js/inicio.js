@@ -5,3 +5,6 @@ for (let i = 0; i < imgs.length; i++) {
   
   }
   */
+  function enviar() {
+    alert("TODA LA ACTUALIDAD SERÁ ENTREGADA EN SU CORREO ELECTRONICO");
+  }

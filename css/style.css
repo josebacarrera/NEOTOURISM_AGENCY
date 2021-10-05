@@ -62,5 +62,10 @@ footer{
     height: 60px;
     margin: 5px;
 }
+.redesSociales p{
+    font: bold;
+    color: grey;
+    font-size: 17px;
+}
 /*fin css del footer*/
 
