@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+}
+
+/*HEADER*/
+
+
+
+
+/*FOOTER*/
+
+.footer{
+background-color: grey;
+text-align: center;
+margin: 3px;
+}
+.footerimg img{
+    width:auto;
+    height:50px ;
+}
+/*css del footer*/
+footer{
+    background-color: #2F2C2C;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: auto;
+    margin-top: 10px;
+}
+/*css del newsletter*/
+.newsletter{   
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    color: #BAB9B9;
+}
+.newsletter button{
+    width: 140px;
+    height: 40px;
+    margin-top: 2%;
+    border-radius: 1px;
+    background-color: #BAB9B9;
+    border: 4px solid #4C4645;
+}
+.newsletter button:hover{
+    border: 4px solid black;
+}
+.newsletter input[type="text"]{
+    width: 40%;
+    background-color: #BAB9B9;
+    border: 4px solid #4C4645;
+}
+/*css redes sociales*/
+.redesSociales{
+    width: 40%;
+    height: auto;
+}
+.redesSociales img{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.redesSociales p{
+    font: bold;
+    color: grey;
+    font-size: 17px;
+}
+/*fin css del footer*/
+
+
+/*botones*/
+.btnS {
+	background-color:#ff0044;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	padding:12px 36px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #001eff;
+}
+.btnS:hover {
+	background-color:rgb(19, 28, 77);
+}
+.btnS:active {
+	position:relative;
+	top:1px;
+}
+
