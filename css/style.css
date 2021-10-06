@@ -8,14 +8,26 @@ body {
 #logotop{
     height: 40%;
     width: 40%;
+    margin-left: 35%;
 }
 #navbarfont{
-    font-size: 30px;
+    font-size: 35px;
     
 }
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    
+  }
+
 
 
 /*FOOTER*/
+
+.carousel-inner{
+     height: 82vh;
+     
+}
 
 /*css redes sociales*/
 #redesSociales{
