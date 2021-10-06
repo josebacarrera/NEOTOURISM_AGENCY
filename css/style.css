@@ -5,7 +5,14 @@ body {
 
 /*HEADER*/
 
-
+#logotop{
+    height: 40%;
+    width: 40%;
+}
+#navbarfont{
+    font-size: 30px;
+    
+}
 
 
 /*FOOTER*/

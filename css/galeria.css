@@ -1,3 +1,4 @@
+/*
 :root {
     --background: rgba(148, 148, 148, 0.85);
   }
@@ -14,7 +15,7 @@
 }
 
   /* estilo del menu */
-
+/*
   header {
     background: var(--background);
     text-align: center;
@@ -29,6 +30,7 @@
   }
 
   /* menu movil */
+  /*
   .nav-toggle-label {
     position: absolute;
     top: 0;
@@ -38,7 +40,7 @@
     display: flex;
     align-items: center;
 }
-
+/*
 .nav-toggle-label span,
 .nav-toggle-label span::before,
 .nav-toggle-label span::after {
@@ -66,7 +68,7 @@
 }
 
 /* fin menu movil */
-
+/*
   nav {
       position: absolute;
       text-align: left;
@@ -118,7 +120,7 @@
   }
 
   /* mediaquery */
-
+/*
 @media screen and (min-width: 950px) {
     .nav-toggle-label {
         display: none;
@@ -177,7 +179,8 @@
 
 /*  Fin Mediaquery */
 /* Fin menu */
-
+/*
 .container {
     justify-content: center;
 }
+*/

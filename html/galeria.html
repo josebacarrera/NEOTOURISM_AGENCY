@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="/css/galeria.css">
+    <link rel="stylesheet" href="../css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,35 +16,32 @@
 
 </head>
 <body>
-    <!-- Encabezado -->
-    <header>
-        <img class="logo" src="/NEOTOURISM_AGENCY/img/logo.png"></h1>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <!-- Menu -->
-        <nav>
-          <ul>
-            <li><a href="inicio.html">Inicio</a></li>
-            <li><a href="planifica.html">Planifica tu viaje</a></li>
-            <li><a href="galeria.html">Galeria</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-        <!-- Menu movil -->
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-        </label>
-      </header>
-    <!-- Fin del encabezado -->
-   <div class="container">
-    <!-- Carousel de imagenes -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicadores -->
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-          <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
+      <!--nav-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarfont">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../html/inicio.html"><img src="/img/logoc.png" id="logotop"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../html/inicio.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/planifica.html">PLANIFICA TU VIAJE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/galeria.html">GALERIA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
       
         <!-- Contenedor de imagenes -->
         <div class="carousel-inner">
