@@ -48,55 +48,61 @@
     </div>
   </nav>
 
-<!--INICIO CONTENEDOR PRINCICPAL-->
+  <!--INICIO CONTENEDOR PRINCICPAL-->
 
-<section>
-  <div class="container">
+  <section>
+    <div class="container">
       <div class="container">
-          <h4>empresa</h4>
-          <div class="container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.97745385509!2d139.7723633152166!3d35.70217243018939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea73ea6f4ff%3A0x5eb9f1e50fe061e3!2sAkihabara%2C%20Tait%C5%8D%2C%20Tokio%20110-0006%2C%20Jap%C3%B3n!5e0!3m2!1ses!2sve!4v1633515819854!5m2!1ses!2sve" width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-          </div>
-          <strong>Contactenos</strong><br><strong>Oficina:</strong> 123456789
-          <hr>
+        <h4>empresa</h4>
+        <div class="container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.97745385509!2d139.7723633152166!3d35.70217243018939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea73ea6f4ff%3A0x5eb9f1e50fe061e3!2sAkihabara%2C%20Tait%C5%8D%2C%20Tokio%20110-0006%2C%20Jap%C3%B3n!5e0!3m2!1ses!2sve!4v1633515819854!5m2!1ses!2sve"
+            width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <strong>Contactenos</strong><br><strong>Oficina:</strong> 123456789
+        <hr>
       </div>
       <div class="container">
-          <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
-              <div class="form-group">
-                  <label class="control-label" for="Nombre">Nombres</label>
-                  <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre" required autofocus />
-              </div>            
-              <div class="form-group">
-                  <label class="control-label" for="Motivo">Motivo de Contacto</label>
-                  <select name="Motivo" class="form-control">
-                      <option value="Consulta General">Consulta General</option>
-                      <option value="Realizar Pedido">Realizar Pedido</option>
-                      <option value="Informe un problema">Informe un problema</option>
-                  </select>
-              </div>
-              <div class="form-group">
-                  <label class="control-label" for="Empresa">Empresa</label>
-                  <input type="text" class="form-control" id="Empresa" name="Empresa" placeholder="Introduzca el nombre de su empresa" required />
-              </div>
-              <div class="form-group">
-                  <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
-                  <input type="email" class="form-control" id="Correo" name="Correo" placeholder="Introduzca su correo electrónico" required />
-              </div>
-              <div class="form-group">
-                  <label class="control-label" for="Mensaje">Mensaje</label>
-                  <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje" placeholder="Introduzca su mensaje" required ></textarea>
-              </div><br>
-              <div class="form-group">                
-                  <input type="submit" class="btn btn-primary" onclick="enviarmensaje()" value="Enviar">
-                  <input type="reset" class="btn btn-default" value="Limpiar">                
-              </div>
-              <div id="respuesta" style="display: none;"></div>
-          </form>
-      </div>       
-  </div>
-</section>
-<!--FINAL CONTENEDOR PRINCICPAL-->
-<br>
+        <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
+          <div class="form-group">
+            <label class="control-label" for="Nombre">Nombre</label>
+            <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre"
+              required autofocus />
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="Motivo">Motivo de Contacto</label>
+            <select name="Motivo" id="Motivo" class="form-control">
+              <option value="Consulta General">Consulta General</option>
+              <option value="Realizar Pedido">Realizar Pedido</option>
+              <option value="Informe un problema">Informe un problema</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="Empresa">Empresa</label>
+            <input type="text" class="form-control" id="Empresa" name="Empresa"
+              placeholder="Introduzca el nombre de su empresa" required />
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
+            <input type="email" class="form-control" id="Correo" name="Correo"
+              placeholder="Introduzca su correo electrónico" required />
+          </div>
+          <div class="form-group">
+            <label class="control-label" for="Mensaje">Mensaje</label>
+            <textarea rows="5" cols="30" class="form-control" id="Mensaje" name="Mensaje"
+              placeholder="Introduzca su mensaje" required></textarea>
+          </div><br>
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary" onclick="return enviarmensaje()" value="Enviar">Enviar</button>
+            <input type="reset" class="btn btn-default" value="Limpiar">
+          </div>
+          <div id="respuesta" style="display: none;"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--FINAL CONTENEDOR PRINCICPAL-->
+  <br>
   <!-- Footer -->
   <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
@@ -144,7 +150,7 @@
               <!--Grid column-->
               <div class="col-auto">
                 <p class="pt-2">
-                  <strong>Sign up for our newsletter</strong>
+                  <strong>Newsletter</strong>
                 </p>
               </div>
               <!--Grid column-->
@@ -162,7 +168,7 @@
               <!--Grid column-->
               <div class="col-auto">
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-outline-light mb-4">
+                <button type="submit" onclick="suscrito()" class="btn btn-outline-light mb-4">
                   Subscribe
                 </button>
               </div>
@@ -176,9 +182,7 @@
         <!-- Section: Text -->
         <section class="mb-4">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-            eum harum corrupti dicta, aliquam sequi voluptate quas.
+            <b>neoturism@gmail.com &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp +34 644 62 70 70</b>
           </p>
         </section>
         <!-- Section: Text -->

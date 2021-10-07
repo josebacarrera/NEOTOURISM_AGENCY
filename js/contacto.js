@@ -4,7 +4,7 @@ $(document).ready(function(){
 
      $.ajax({
          type: 'POST',
-         url: '../php/contacto2.php',
+         url: '../js/contacto.js',
          data: $(this).serialize(),
          success: function(data){
              $("#respuesta").slideDown();
@@ -20,4 +20,14 @@ $(document).ready(function(){
 
 function enviarmensaje() {
     window.alert("FORMULARIO ENVIADO");
+    document.getElementById('Nombre').value="";
+    document.getElementById('Empresa').value="";
+    document.getElementById('Correo').value="";
+    document.getElementById('Mensaje').value="";
+    return false;
+
+   /*addEventListener.*/
+}
+function suscrito() {
+    window.alert("RECIBIRAS TODA LA INFORMACIÓN EN EL CORREO ELECTRONICO ASOCIADO");
 }
