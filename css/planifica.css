@@ -11,6 +11,27 @@
   
 }
 
+/*Botones*/
+.btnS {
+	background-color:#ff0044;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	padding:12px 36px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #001eff;
+    margin: 10px;
+}
+.btnS:hover {
+	background-color:rgb(19, 28, 77);
+}
+.btnS:active {
+	position:relative;
+	top:1px;
+}
 /****************************************************************************/
 /*Rectangulo entero*/
 .tabs {
