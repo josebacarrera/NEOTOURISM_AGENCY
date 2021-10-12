@@ -29,9 +29,25 @@ body {
     margin-left: 20%;
     margin-right: 20%;
 }  
-/*boton contacto*/
-
 /*FIN QUIENES SOMOS*/
+
+/*INFO*/
+.info1txt{
+    text-align: left;
+    margin-left: 22.5vw;
+    margin-right: 54vw;
+}
+.info1img{
+    width: 23vw;
+    height: 29vh;
+    background-image: url(/img/cyberpunk-neotokyo-hd-wallpaper-preview.jpg);
+    position: absolute;
+    margin-top: -33vh;
+    margin-left: 53vw;
+}
+
+
+
 /*FOOTER*/
 
 .carousel-inner{
