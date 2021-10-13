@@ -20,6 +20,7 @@ body {
     
   }
 
+  
 
 
   /*QUIENES SOMOS*/
@@ -86,3 +87,12 @@ body {
     font-size: 17px;
 }
 /*fin css del footer*/
+
+
+
+@media (max-width: 800px) {
+    .navbar-brand {
+        width: 15em;
+        margin-left: 7.5em;
+    }
+}
