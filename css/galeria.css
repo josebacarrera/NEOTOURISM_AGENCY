@@ -9,11 +9,16 @@
 @media (max-width: 800px) {
     .navbar-brand {
         margin-left: 70px;
+        
+    }
+
+    .carousel-inner {
+        height: -50em;
     }
 
     .container-videos {
         grid-template-columns: 1fr;
-        margin-top: -15em;
+        margin-top: -20em;
     }
 
 }
