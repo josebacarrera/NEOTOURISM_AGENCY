@@ -48,7 +48,7 @@ body {
     background-image: url(/img/kabuki.png);
     background-position: center;
     position: absolute;
-    margin-top: -46vh;
+    margin-top: -40vh;
     margin-left: 53vw;
 }
 .info2txt{
@@ -62,7 +62,7 @@ body {
     background-image: url(/img/corpo.png);
     background-position: center;
     position: absolute;
-    margin-top: 20vh;
+    margin-top: 10vh;
     margin-left: 23vw;
 }
 .info3txt{
@@ -72,11 +72,11 @@ body {
 }
 .info3img{
     width: 25vw;
-    height: 35vh;
+    height: 48vh;
     background-image: url(/img/japantown.jpg);
     background-position: center;
     position: absolute;
-    margin-top: -45vh;
+    margin-top: -50vh;
     margin-left: 53vw;
 }
 .info4txt{
@@ -86,8 +86,9 @@ body {
 }
 .info4img{
     width: 25vw;
-    height: 35vh;
+    height: 48vh;
     background-image: url(/img/litelchaina.jpg);
+    background-position: center;
     position: absolute;
     margin-top: 19vh;
     margin-left: 23vw;
