@@ -26,8 +26,6 @@ body {
     
   }
 
-  
-
 
   /*QUIENES SOMOS*/
   
@@ -121,6 +119,11 @@ body {
     color: grey;
     font-size: 17px;
 }
+
+section b{
+    margin: 70px;
+}
+
 /*fin css del footer*/
 
 
