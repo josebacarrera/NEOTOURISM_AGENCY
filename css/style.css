@@ -5,18 +5,24 @@ body {
 
 /*HEADER*/
 
+.navbar-brand{
+    padding-right: 12%;
+}
 #logotop{
     height: 40%;
     width: 40%;
-    margin-left: 35%;
+    margin-left: 29%;
+   
 }
+
 #navbarfont{
-    font-size: 30px;
+    font-size: 27px;
     
 }
 .navbar-nav > li{
-    padding-left:30px;
-    padding-right:30px;
+    padding-left:17px;
+    padding-right:17px;
+    
     
   }
 
@@ -41,9 +47,10 @@ body {
 .info1img{
     width: 25vw;
     height: 35vh;
-    background-image: url(/img/cyberpunk-neotokyo-hd-wallpaper-preview.jpg);
+    background-image: url(/img/kabuki.png);
+    background-position: center;
     position: absolute;
-    margin-top: -45vh;
+    margin-top: -46vh;
     margin-left: 53vw;
 }
 .info2txt{
@@ -54,7 +61,35 @@ body {
 .info2img{
     width: 25vw;
     height: 35vh;
-    background-image: url(/img/cyberpunk-neotokyo-hd-wallpaper-preview.jpg);
+    background-image: url(/img/corpo.png);
+    background-position: center;
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 23vw;
+}
+.info3txt{
+    text-align: left;
+    margin-left: 22.5vw;
+    margin-right: 54vw;
+}
+.info3img{
+    width: 25vw;
+    height: 35vh;
+    background-image: url(/img/japantown.jpg);
+    background-position: center;
+    position: absolute;
+    margin-top: -45vh;
+    margin-left: 53vw;
+}
+.info4txt{
+    text-align: right;
+    margin-left: 54vw;
+    margin-right: 22.5vw;
+}
+.info4img{
+    width: 25vw;
+    height: 35vh;
+    background-image: url(/img/litelchaina.jpg);
     position: absolute;
     margin-top: 19vh;
     margin-left: 23vw;
