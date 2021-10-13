@@ -6,6 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/contacto.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="/Bootstrap/bootstrap-5.1.2-dist/css/bootstrap.min.css">
 
@@ -53,12 +54,12 @@
   <section>
     <div class="container">
       <div class="container">
-        <h4>Ubicacción de las oficinas Neoturism</h4>
+        <center><strong><h4>Ubicación de las oficinas Neoturism</h4></strong></center>
         <div class="container">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.97745385509!2d139.7723633152166!3d35.70217243018939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea73ea6f4ff%3A0x5eb9f1e50fe061e3!2sAkihabara%2C%20Tait%C5%8D%2C%20Tokio%20110-0006%2C%20Jap%C3%B3n!5e0!3m2!1ses!2sve!4v1633515819854!5m2!1ses!2sve"
             width="1300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div><br>
+        </div>
         <center><strong><h3>Contáctanos</h3></strong></center>
         <hr>
       </div>
@@ -66,7 +67,7 @@
         <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
           <div class="form-group">
             <label class="control-label" for="Nombre">Nombre</label>
-            <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre"
+            <input type="text" class="form-control" id="Nombre" name="Nombre" maxlength="45" placeholder="Introduzca su nombre"
               required autofocus />
           </div>
           <div class="form-group">
@@ -80,13 +81,13 @@
               <option value="Consulta General">Consulta General</option>
               <option value="Realizar Pedido">Realizar Pedido</option>
               <option value="Informe un problema">Informe un problema</option>
-              <option value="Otro">Otro...</option>
+              <option value="Otro" onclick="mostrar()">Otro...</option>
             </select>
           </div>
           <div ></div>
-          <div class="form-group">
+          <div class="form-group" id="motivo">
             <label class="control-label" for="Correo">Motivo</label>
-            <input type="email" class="form-control" id="Correo" name="Correo"
+            <input type="text" class="form-control" id="Motivo" name="Motivo"
               placeholder="Motivo adjunto" required />
           </div>
           <div class="form-group">

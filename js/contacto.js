@@ -1,3 +1,4 @@
+/*FUNCIONES FORMULARIO*/ 
 $(document).ready(function () {
     $("#Formulario").submit(function (event) {
         event.preventDefault();
@@ -18,6 +19,7 @@ $(document).ready(function () {
     });
 });
 
+/*LIMPIAR FORMULARIO*/
 function enviarmensaje() {
     window.alert("FORMULARIO ENVIADO");
     document.getElementById('Nombre').value = "";
@@ -27,4 +29,14 @@ function enviarmensaje() {
     return false;
 
     /*addEventListener.*/
+}
+/*MOSTRAR DIV MOTIVO CUANDO CLICKAS EN 'OTRO'0*/
+function mostrar() {
+
+    var x = document.getElementById("motivo");
+    if (x.style.display === "none"){
+        x.style.display = "block";
+    } else {
+        x.style.display="none";
+    }
 }
