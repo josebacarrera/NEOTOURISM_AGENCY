@@ -162,3 +162,9 @@ h3{
 
 }
 
+
+@media (max-width: 800px) {
+  .navbar-brand {
+      margin-left: 70px;
+  }
+}

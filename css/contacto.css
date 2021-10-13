@@ -8,3 +8,10 @@
     font-size: 35px;
     color: #36A0FF;
 }
+
+
+@media (max-width: 800px) {
+    .navbar-brand {
+        margin-left: 70px;
+    }
+}

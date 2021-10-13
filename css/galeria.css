@@ -7,7 +7,13 @@
 
 
 @media (max-width: 800px) {
+    .navbar-brand {
+        margin-left: 70px;
+    }
+
     .container-videos {
         grid-template-columns: 1fr;
+        margin-top: -15em;
     }
+
 }
