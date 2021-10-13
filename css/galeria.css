@@ -2,9 +2,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: minmax(100px, auto);
-    padding: 2em;
+    padding: 5em;
 }
 
+.embed-responsive-item{
+    margin: 15px;
+}
 
 @media (max-width: 800px) {
     .navbar-brand {
