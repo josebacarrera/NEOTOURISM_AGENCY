@@ -26,8 +26,8 @@ body {
   
 .quienesSomos{
     text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 21%;
+    margin-right: 21%;
 }  
 /*FIN QUIENES SOMOS*/
 
@@ -38,12 +38,25 @@ body {
     margin-right: 54vw;
 }
 .info1img{
-    width: 23vw;
-    height: 29vh;
+    width: 25vw;
+    height: 35vh;
     background-image: url(/img/cyberpunk-neotokyo-hd-wallpaper-preview.jpg);
     position: absolute;
-    margin-top: -33vh;
+    margin-top: -45vh;
     margin-left: 53vw;
+}
+.info2txt{
+    text-align: right;
+    margin-left: 54vw;
+    margin-right: 22.5vw;
+}
+.info2img{
+    width: 25vw;
+    height: 35vh;
+    background-image: url(/img/cyberpunk-neotokyo-hd-wallpaper-preview.jpg);
+    position: absolute;
+    margin-top: 19vh;
+    margin-left: 23vw;
 }
 
 
