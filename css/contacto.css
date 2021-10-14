@@ -8,3 +8,38 @@
     font-size: 35px;
     color: #36A0FF;
 }
+
+.container h4{
+    margin:10px;
+}
+
+.container iframe{
+    height:500px;
+    width:100%;
+}
+
+
+@media (max-width: 1200px) {
+    .container iframe{
+        height:500px;
+        width:100%;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .container iframe{
+        height:500px;
+        width:100%;
+    }
+    .navbar-brand {
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container iframe{
+        height:500px;
+        width:100%;
+    }
+}
