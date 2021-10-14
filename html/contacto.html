@@ -21,33 +21,33 @@
     integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
     crossorigin="anonymous"></script>
 
-  <!--nav-->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbarfont">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../html/inicio.html"><img src="/img/logoc.png" id="logotop"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="../html/inicio.html">INICIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../html/planifica.html">PLANIFICA TU VIAJE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../html/galeria.html">GALERIA</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../html/contacto.html">CONTACTO</a>
-          </li>
-        </ul>
-
+    <!--nav-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbarfont">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../html/inicio.html"><img src="/img/logoc.png" id="logotop"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../html/inicio.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/planifica.html">PLANIFICA TU VIAJE</a>
+             
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/galeria.html">GALERIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+<!--Fin nav-->
 
   <!--INICIO CONTENEDOR PRINCICPAL-->
 
@@ -68,10 +68,10 @@
         <hr>
       </div>
       <div class="container">
-        <form role="form" id="Formulario" action="../php/contacto2.php" method="POST">
+        <form role="form" id="Formulario" action="../html/contacto.html" method="POST" onsubmit="enviarform()">
           <div class="form-group">
             <label class="control-label" for="Nombre">Nombre</label>
-            <input type="text" class="form-control" id="Nombre" name="Nombre" maxlength="45"
+            <input type="text" class="form-control" id="Nombre" name="Nombre"
               placeholder="Introduzca su nombre" required autofocus />
           </div>
           <div class="form-group">
@@ -99,7 +99,7 @@
               placeholder="Introduzca su mensaje" required></textarea>
           </div><br>
           <div class="form-group">
-            <button type="submit" class="btn btn-primary" onclick="return enviarmensaje()"
+            <button type="submit" class="btn btn-primary" 
               value="Enviar">Enviar</button>
             <input type="reset" class="btn btn-default" value="Limpiar">
           </div>
@@ -150,7 +150,7 @@
         <!-- Section: Social media -->
 
         <!-- Section: Form -->
-        <section class="">
+        <section class="" onsubmit="suscrito()">
           <form action="">
             <!--Grid row-->
             <div class="row d-flex justify-content-center">
@@ -177,8 +177,8 @@
               <!--Grid column-->
               <div class="col-auto">
                 <!-- Submit button -->
-                <button type="submit" onclick="suscrito()" class="btn btn-outline-light mb-4">
-                  Subscribe
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Suscribirse
                 </button>
               </div>
               <!--Grid column-->
