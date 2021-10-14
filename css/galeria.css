@@ -9,6 +9,25 @@
     margin: 15px;
 }
 
+.container-imagenes {
+    margin-top:-3em;
+    height: 89vh;
+    background-color: rgb(59, 58, 61);
+}
+
+.imagenes {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 1em;
+}
+
+.card {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+
 @media (max-width: 800px) {
     .navbar-brand {
         margin-left: 70px;
@@ -21,7 +40,7 @@
 
     .container-videos {
         grid-template-columns: 1fr;
-        margin-top: -20em;
+        margin-top: -10em;
     }
 
 }
