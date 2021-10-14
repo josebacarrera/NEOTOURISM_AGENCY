@@ -139,3 +139,173 @@ section b{
         margin-left: 7.5em;
     }
 }
+
+
+
+
+/*MEDIA QUERY INICIO*/
+
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+        /*HEADER*/
+
+.navbar-brand{
+    padding-right: 12%;
+}
+#logotop{
+    height: 60%;
+    width: 70%;
+    margin-left: -20%;
+   
+}
+
+#navbarfont{
+    font-size: 27px;
+    
+}
+.navbar-nav > li{
+    padding-left:17px;
+    padding-right:17px;
+    
+    
+  }
+
+
+  /*QUIENES SOMOS*/
+  
+.quienesSomos{
+    text-align: center;
+    margin-left: 21%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: -116%;
+}  
+/*FIN QUIENES SOMOS*/
+
+/*INFO*/
+.info1txt{
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+}
+.space1{
+    height: 30vh;
+    width: 10%;
+}
+.info1img{
+    width: 72vw;
+    height: 24vh;
+    background-image: url(/img/kabuki.png);
+    background-position: center;
+    position: absolute;
+    margin-top: -1vh;
+    margin-left: 14vw;
+}
+.info2txt{
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.space2{
+    height: 20vh;
+    width: 10%;
+}
+.info2img{
+    width: 72vw;
+    height: 24vh;
+    background-image: url(/img/corpo.png);
+    background-position: center;
+    position: absolute;
+    margin-top: 37vh;
+    margin-left: 14vw;
+}
+.info3txt{
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.space3{
+    height: 27vh;
+    width: 10%;
+}
+.info3img{
+    width: 72vw;
+    height: 24vh;
+    background-image: url(/img/japantown.jpg);
+    background-position: center;
+    position: absolute;
+    margin-top: -31vh;
+    margin-left: 14vw;
+}
+.info4txt{
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.space4{
+    height: 27vh;
+    width: 10%;
+}
+.info4img{
+    width: 72vw;
+    height: 24vh;
+    background-image: url(/img/litelchaina.jpg);
+    background-position: center;
+    position: absolute;
+    margin-top: 55vh;
+    margin-left: 14vw;
+}
+
+.fondoinfo{
+    background-color: rgba(151, 151, 151, 0.226);
+    
+}
+
+
+
+/*FOOTER*/
+
+.carousel-inner{
+     height: 82vh;
+     
+}
+
+/*css redes sociales*/
+#redesSociales{
+    width: 5%;
+    height: auto;
+    align-items: center;
+    
+}
+.redesSociales img{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.redesSociales p{
+    font: bold;
+    color: grey;
+    font-size: 17px;
+}
+
+section b{
+    margin: 70px;
+}
+
+/*fin css del footer*/
+
+
+
+@media (max-width: 800px) {
+    .navbar-brand {
+        width: 15em;
+        margin-left: 7.5em;
+    }
+}
+     }

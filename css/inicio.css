@@ -3,3 +3,145 @@
         margin-left: 70px;
     }
 }
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+
+        /*HEADER*/
+
+.navbar-brand{
+    padding-right: 12%;
+}
+#logotop{
+    height: 40%;
+    width: 40%;
+    margin-left: -2%;
+   
+}
+
+#navbarfont{
+    font-size: 27px;
+    
+}
+.navbar-nav > li{
+    padding-left:17px;
+    padding-right:17px;
+    
+    
+  }
+
+
+  /*QUIENES SOMOS*/
+  
+.quienesSomos{
+    text-align: center;
+    margin-left: 21%;
+    margin-right: 21%;
+}  
+/*FIN QUIENES SOMOS*/
+
+/*INFO*/
+.info1txt{
+    text-align: left;
+    margin-left: 22.5vw;
+    margin-right: 54vw;
+}
+.info1img{
+    width: 25vw;
+    height: 35vh;
+    background-image: url(/img/kabuki.png);
+    background-position: center;
+    position: absolute;
+    margin-top: -40vh;
+    margin-left: 53vw;
+}
+.info2txt{
+    text-align: right;
+    margin-left: 54vw;
+    margin-right: 22.5vw;
+}
+.info2img{
+    width: 25vw;
+    height: 35vh;
+    background-image: url(/img/corpo.png);
+    background-position: center;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 23vw;
+}
+.info3txt{
+    text-align: left;
+    margin-left: 22.5vw;
+    margin-right: 54vw;
+}
+.info3img{
+    width: 25vw;
+    height: 48vh;
+    background-image: url(/img/japantown.jpg);
+    background-position: center;
+    position: absolute;
+    margin-top: -50vh;
+    margin-left: 53vw;
+}
+.info4txt{
+    text-align: right;
+    margin-left: 54vw;
+    margin-right: 22.5vw;
+}
+.info4img{
+    width: 25vw;
+    height: 48vh;
+    background-image: url(/img/litelchaina.jpg);
+    background-position: center;
+    position: absolute;
+    margin-top: 19vh;
+    margin-left: 23vw;
+}
+
+.fondoinfo{
+    background-color: rgba(151, 151, 151, 0.226);
+}
+
+
+
+/*FOOTER*/
+
+.carousel-inner{
+     height: 82vh;
+     
+}
+
+/*css redes sociales*/
+#redesSociales{
+    width: 40%;
+    height: auto;
+    align-items: center;
+    
+}
+.redesSociales img{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.redesSociales p{
+    font: bold;
+    color: grey;
+    font-size: 17px;
+}
+
+section b{
+    margin: 70px;
+}
+
+/*fin css del footer*/
+
+
+
+@media (max-width: 800px) {
+    .navbar-brand {
+        width: 15em;
+        margin-left: 7.5em;
+    }
+}
+     }
