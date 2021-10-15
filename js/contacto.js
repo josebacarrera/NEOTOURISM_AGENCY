@@ -2,13 +2,14 @@
 function enviarform() {
     window.alert("FORMULARIO ENVIADO");
 }
-/*MOSTRAR DIV MOTIVO CUANDO CLICKAS EN 'OTRO'0*/
+/*MOSTRAR DIV MOTIVO CUANDO CLICKAS EN 'OTRO...'*/
 function mostrar() {
 
-    var i = document.getElementById("motivo");
-    if (i.style.display === "none"){
-        i.style.display = "block";
-    } else {
-        i.style.display="none";
+    var valor = document.getElementById("MotivoS").value;
+
+    if (valor == "Otro") {
+        document.getElementById("motivo").style.display = 'block';
+    }else{
+        document.getElementById("motivo").style.display = 'none';
     }
 }

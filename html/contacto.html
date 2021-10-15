@@ -22,8 +22,8 @@
     integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
     crossorigin="anonymous"></script>
 
-  <!--nav-->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbarfont">
+   <!--nav-->
+   <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbarfont">
     <div class="container-fluid">
       <a class="navbar-brand" href="../html/inicio.html"><img src="/img/logoc.png" id="logotop"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -33,45 +33,18 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../html/inicio.html">INICIO</a>
+            <a class="nav-link"  href="../html/inicio.html">INICIO</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../html/planifica.html">PLANIFICA TU VIAJE</a>
-
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../html/galeria.html">GALERIA</a>
+            <a class="nav-link active" aria-current="page" href="../html/galeria.html">GALERIA</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../html/contacto.html">CONTACTO</a>
           </li>
         </ul>
-
-    <!--nav-->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbarfont">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../html/inicio.html"><img src="/img/logoc.png" id="logotop"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " href="../html/inicio.html">INICIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../html/planifica.html">PLANIFICA TU VIAJE</a>
-             
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../html/galeria.html">GALERIA</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../html/contacto.html">CONTACTO</a>
-            </li>
-          </ul>
-        </div>
-
       </div>
     </div>
   </nav>
@@ -109,18 +82,18 @@
           </div>
           <div class="form-group">
             <label class="control-label" for="Motivo">Motivo de Contacto</label>
-            <select name="Motivo" id="Motivo" class="form-control">
+            <select name="Motivo" id="MotivoS" onchange="mostrar()" class="form-control">
               <option value="Viaje" id="Viaje" selected disabled>Escoge una opción</option>
               <option value="Viaje" id="Viaje">Viaje</option>
               <option value="Estancia">Estancia</option>
               <option value="Pack neoturism">Pack neoturism</option>
-              <option value="Otro" onclick="mostrar()">Otro...</option>
+              <option value="Otro">Otro...</option>
             </select>
           </div>
           <div></div>
-          <div class="form-group" id="motivo">
+          <div class="form-group" style="display: none;" id="motivo">
             <label class="control-label" for="Correo">Motivo</label>
-            <input type="text" class="form-control" id="Motivo" name="Motivo" placeholder="Motivo adjunto" required />
+            <input type="text" class="form-control" id="MasMotivo" name="Motivo" placeholder="Motivo adjunto" required />
           </div>
           <div class="form-group">
             <label class="control-label" for="Mensaje">Mensaje</label>
