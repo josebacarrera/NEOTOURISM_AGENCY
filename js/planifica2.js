@@ -35,6 +35,7 @@ borrar();
         for (let index = 0; index < imagenSup.length; index++) {
            imagenSup(index).addEventListener('click', function(){sacarDatosGeneral(i)});            
         }
+        
 /****************************************************************************************************************************************************************************************** */
             
 miArray="vuelos";
