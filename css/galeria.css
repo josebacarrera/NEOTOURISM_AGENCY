@@ -9,9 +9,15 @@
     margin: 15px;
 }
 
+.carousel-inner {
+       
+    height: 30% !important;
+   
+}
+
 .container-imagenes {
     margin-top:-3em;
-    height: 89vh;
+    height: 100%;
     background-color: rgb(59, 58, 61);
 }
 
@@ -23,8 +29,13 @@
 }
 
 .card {
+    width: 25rem;
     margin-right: 0.5em;
     margin-left: 0.5em;
+}
+
+.espacio {
+    height: 1em;
 }
 
 
@@ -35,12 +46,38 @@
     }
 
     .carousel-inner {
-        height: -50em;
+       
+        height: 30% !important;
+       
     }
+    .carousel-item img {
+          min-height:100%;
+    }
+  
 
     .container-videos {
         grid-template-columns: 1fr;
-        margin-top: -10em;
+        z-index:10;
+        padding:0;
+        margin-right:1em;
     }
 
+    .container-imagenes {
+        margin-top:1em;
+        height:100%;
+    }
+
+    .imagenes {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-right: 0.5em;
+        margin-left: 0.5em;
+        margin-top: 1em;
+        width: 97%;
+    }
 }
+
+
+
