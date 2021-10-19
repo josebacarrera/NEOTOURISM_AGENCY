@@ -1,20 +1,20 @@
 .container h4{
     margin:10px;
 }
-
+/*TAMAÑO DEL MAPA*/
 .container iframe{
     height:500px;
     width:100%;
 }
 
-
+/*TAMAÑO DEL MAPA*/
 @media (max-width: 1200px) {
     .container iframe{
         height:500px;
         width:100%;
     }
 }
-
+/*TAMAÑO DEL MAPA TABLET*/
 @media (max-width: 800px) {
 
     .container iframe{
@@ -25,11 +25,12 @@
         margin-left: 70px;
     }
 }
-
+/*TAMAÑO DEL MAPA MOVIL*/
 @media (max-width: 600px) {
     .container iframe{
         height:500px;
         width:100%;
     }
 }
+
 
