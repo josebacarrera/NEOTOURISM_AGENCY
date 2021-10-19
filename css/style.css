@@ -137,7 +137,14 @@ section b{
         margin-left: 7.5em;
     }
 }
-
+.carousel-inner {
+       
+    height: 30% !important;
+   
+}
+.carousel-item img {
+      min-height:100%;
+}
 
 
 
