@@ -49,9 +49,9 @@ borrar();
     borrar();
     
     document.getElementById("idt").style.display = "block";
-    document.getElementById("avion").addEventListener("click", function () {generarInfo("1", index)});
-    document.getElementById("hotel").addEventListener("click", function () {generarInfo("2", index)});
-    document.getElementById("actividades").addEventListener("click", function () {generarInfo("3", index)});
+    document.getElementById("avion").addEventListener("click", function () {generarInfo("0", index)});
+    document.getElementById("hotel").addEventListener("click", function () {generarInfo("1", index)});
+    document.getElementById("actividades").addEventListener("click", function () {generarInfo("2", index)});
      
  }
  
