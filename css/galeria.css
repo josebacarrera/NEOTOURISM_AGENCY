@@ -34,6 +34,11 @@
     margin-left: 0.5em;
 }
 
+.card-img-top {
+    height: 15vw;
+    object-fit: cover;
+}
+
 .espacio {
     height: 1em;
 }
@@ -76,6 +81,12 @@
         margin-left: 0.5em;
         margin-top: 1em;
         width: 97%;
+    }
+
+    .card-img-top {
+        height: 100%;
+        object-fit: cover;
+     
     }
 }
 
