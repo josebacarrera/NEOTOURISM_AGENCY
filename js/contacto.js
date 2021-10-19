@@ -1,8 +1,8 @@
-/*ENVIAR FORMULARIO*/
+//ENVIAR FORMULARIO
 function enviarform() {
     window.alert("FORMULARIO ENVIADO");
 }
-/*MOSTRAR DIV MOTIVO CUANDO CLICKAS EN 'OTRO...'*/
+//MOSTRAR DIV MOTIVO CUANDO CLICKAS EN 'OTRO...'
 function mostrar() {
 
     var valor = document.getElementById("MotivoS").value;
