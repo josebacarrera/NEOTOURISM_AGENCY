@@ -5,8 +5,11 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
+  <link rel="stylesheet" href="../css/contacto.css">
+
   <link rel="stylesheet" href="../css/style.css">
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="/Bootstrap/bootstrap-5.1.2-dist/css/bootstrap.min.css">
   <title>Contacta con nosotros</title>
@@ -20,6 +23,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
     crossorigin="anonymous"></script>
+
 
    <!--nav-->
    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbarfont">
@@ -44,10 +48,35 @@
             <a class="nav-link active" href="../html/contacto.html">CONTACTO</a>
           </li>
         </ul>
+
+    <!--nav-->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbarfont">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../html/inicio.html"><img src="/img/logoc.png" id="logotop"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../html/inicio.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/planifica.html">PLANIFICA TU VIAJE</a>
+             
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../html/galeria.html">GALERIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../html/contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!--Fin nav -->
+    </nav>
+<!--Fin nav-->
+
 
   <!--INICIO CONTENEDOR PRINCICPAL-->
 
@@ -68,11 +97,13 @@
         <hr>
       </div>
       <div class="container">
-        <form role="form" id="formulario" action="?" method="GET" onsubmit="enviarform()">
+
+        <form role="form" id="Formulario" action="?" method="GET" onsubmit="enviarform()">
           <div class="form-group">
             <label class="control-label" for="Nombre">Nombre</label>
-            <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Introduzca su nombre"
-              required autofocus />
+            <input type="text" class="form-control" id="Nombre" name="Nombre"
+              placeholder="Introduzca su nombre" required autofocus />
+
           </div>
           <div class="form-group">
             <label class="control-label" for="Correo">Dirección de Correo Electrónico</label>
@@ -81,6 +112,7 @@
           </div>
           <div class="form-group">
             <label class="control-label" for="Motivo">Motivo de Contacto</label>
+
             <select name="Motivo" id="MotivoS" onchange="mostrar()" class="form-control">
               <option value="Viaje" id="Viaje" selected disabled>Escoge una opción</option>
               <option value="Viaje" id="Viaje">Viaje</option>
@@ -92,7 +124,11 @@
           <div></div>
           <div class="form-group" style="display: none;" id="motivo">
             <label class="control-label" for="Correo">Motivo</label>
+
             <input type="text" class="form-control" id="MasMotivo" name="Motivo" placeholder="Introduzca el motivo" required />
+
+            <input type="text" class="form-control" id="MasMotivo" name="Motivo" placeholder="Motivo adjunto" required />
+
           </div>
           <div class="form-group">
             <label class="control-label" for="Mensaje">Mensaje</label>
@@ -100,7 +136,10 @@
               placeholder="Introduzca su mensaje" required></textarea>
           </div><br>
           <div class="form-group">
-            <button type="submit" class="btn btn-primary" value="Enviar">Enviar</button>
+
+            <button type="submit" class="btn btn-primary" 
+              value="Enviar">Enviar</button>
+
             <input type="reset" class="btn btn-default" value="Limpiar">
           </div>
           <div id="respuesta" style="display: none;"></div>
@@ -150,33 +189,50 @@
         <!-- Section: Social media -->
 
         <!-- Section: Form -->
-        <section class="">
-          <!--SUSCRIBIRSE INCIO-->
-          <form action="" name="correo" id="correo" onsubmit="return suscrito(event)">
+
+        <section class="" onsubmit="suscrito()">
+          <form action="">
+            <!--Grid row-->
             <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+
               <div class="col-auto">
                 <p class="pt-2">
                   <strong>Newsletter</strong>
                 </p>
               </div>
+
+              <!--Grid column-->
+
+              <!--Grid column-->
               <div class="col-md-5 col-12">
+                <!-- Email input -->
                 <div class="form-outline form-white mb-4">
-                  <input type="email" class="form-control" id="correoo" name="correoo"
-                    placeholder="Introduzca su correo electrónico"/>
-                  <label class="form-label" for="correo" placeholder="Introduzca su correo electrónico"
+                  <input type="email" class="form-control" id="Correo" name="Correo"
+                    placeholder="Introduzca su correo electrónico" required />
+                  <label class="form-label" for="Correo" placeholder="Introduzca su correo electrónico"
                     required></label>
                 </div>
               </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+
               <div class="col-auto">
                 <!-- Submit button -->
                 <button type="submit" class="btn btn-outline-light mb-4">
                   Suscribirse
                 </button>
               </div>
+
+              <!--Grid column-->
             </div>
+            <!--Grid row-->
           </form>
-          <!--SUSCRIBIRSE FINAL-->
         </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
 
         <section class="mb-4">
           <p>
@@ -185,7 +241,9 @@
           </p>
         </section>
 
+        <!-- Section: Text -->
     </div>
+    <!-- Grid container -->
 
 
     <!-- Copyright -->
