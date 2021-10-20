@@ -10,14 +10,14 @@ vuelos=[[0,'NeoTokyo2D','Iberia','04:45','200€'],[0,'NeoTokyo2D','Qatar Airway
     3,'Doraemon','Emirates','18:08','800€'],[3,'Doraemon','Lufthansa','14:00','0€'],[3,'Doraemon','Iberia','16:05','1500€'],[3,'Doraemon','Qatar Airways','06:03','5600€']]
 
 hoteles=[[0,'hotel0','Hotel Grizzly','05:45','300€'],[0,'hotel0','Feliz estancia','21:35','700€'],[0,'hotel0','Hotel Spotlight','14:45','250€'],[0,'hotel0','Confort Total','03:00','1400€'],[
-    1,'hotel1','Feliz estancia','07:55','910€'],[1,'hotel1','Hotel Grizzly','23:05','1300€'],[1,'hotel1','Confort Total','04:15','190€'],[1,'hotel1','Hotel Spotlight','07:40','4000€'],[
+    1,'hotel1','Hotel Spotlight','07:40','4000€'],[
     2,'hotel2','Hotel Spotlight','22:05','240€'],[2,'hotel2','Hotel Grizzly','05:35','200€'],[2,'hotel2','Feliz estancia','16:55','1350€'],[2,'hotel2','Confort Total','23:00','140€'],[
     3,'hotel3','Hotel Spotlight','19:08','300€'],[3,'hotel3','Confort Total','13:00','11110€'],[3,'hotel3','Hotel Grizzly','15:05','100€'],[3,'hotel3','Feliz estancia','04:03','560€']]
 
 actividades=[[0,'actividad0','actividad Grizzly','05:45','300€'],[0,'actividad0','Feliz estancia','21:35','700€'],[0,'actividad0','actividad Spotlight','14:45','250€'],[0,'actividad0','Confort Total','03:00','1400€'],[
-    1,'actividad1','Feliz estancia','07:55','910€'],[1,'actividad1','actividad Grizzly','23:05','1300€'],[1,'actividad1','Confort Total','04:15','190€'],[1,'actividad1','actividad Spotlight','07:40','4000€'],[
-    2,'actividad2','actividad Spotlight','22:05','240€'],[2,'actividad2','actividad Grizzly','05:35','200€'],[2,'actividad2','Feliz estancia','16:55','1350€'],[2,'actividad2','Confort Total','23:00','140€'],[
-    3,'actividad3','actividad Spotlight','19:08','300€'],[3,'actividad3','Confort Total','13:00','11110€'],[3,'actividad3','actividad Grizzly','15:05','100€'],[3,'actividad3','Feliz estancia','04:03','560€']]
+    1,'actividad1','actividad Grizzly','23:05','1300€'],[1,'actividad1','Confort Total','04:15','190€'],[1,'actividad1','actividad Spotlight','07:40','4000€'],[
+    2,'actividad2','actividad Grizzly','05:35','200€'],[2,'actividad2','Feliz estancia','16:55','1350€'],[2,'actividad2','Confort Total','23:00','140€'],[
+    3,'actividad3','Confort Total','13:00','11110€'],[3,'actividad3','actividad Grizzly','15:05','100€'],[3,'actividad3','Feliz estancia','04:03','560€']]
 
 
 for (let index = 0; index < select.length; index++) {
@@ -56,6 +56,7 @@ borrar();
  }
  
 function generarInfo(info, index){
+   
     console.log(info + " " + index + "aaaaaaaa")
     document.getElementById("autoGen").style.display = "block";
     document.getElementById("autoGen").innerHTML = "";
@@ -74,7 +75,12 @@ function generarInfo(info, index){
         resul=eval(miArray)
        // })
 
+
         for(i=0;i<resul.length;i++){
+
+
+     
+        for(i=0;i<resul.length;i++){ 
             if((index==resul[i][0])){
                 document.getElementById("autoGen").innerHTML += "<div class='entrada impar'>"
                                                              +  "<h3 class='compañia w-100 mx-5'>"+resul[i][2]+"</h3>"
