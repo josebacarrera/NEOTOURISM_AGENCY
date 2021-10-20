@@ -74,16 +74,15 @@ function generarInfo(info, index){
         resul=eval(miArray)
        // })
 
-
-     
         for(i=0;i<resul.length;i++){
             if((index==resul[i][0])){
                 document.getElementById("autoGen").innerHTML += "<div class='entrada impar'>"
                                                              +  "<h3 class='compañia w-100 mx-5'>"+resul[i][2]+"</h3>"
                                                              +  "<h3 class='hora w-50'>"+resul[i][3]+"</h3>"
                                                              +  "<h3 class='precio w-25'>"+resul[i][4]+"</h3>"
-                                                             +  "<button class='btnS'>Comprar</button></div>"
+                                                             +  "<button class='btnS comprar' >Comprar</button></div>"
             }
+            
         }
  
  }//CIERRE AUTOGEN TODO
