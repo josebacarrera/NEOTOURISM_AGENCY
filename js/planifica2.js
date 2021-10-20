@@ -56,6 +56,7 @@ borrar();
  }
  
 function generarInfo(info, index){
+   
     console.log(info + " " + index + "aaaaaaaa")
     document.getElementById("autoGen").style.display = "block";
     document.getElementById("autoGen").innerHTML = "";
@@ -76,7 +77,7 @@ function generarInfo(info, index){
 
 
      
-        for(i=0;i<resul.length;i++){
+        for(i=0;i<resul.length;i++){ 
             if((index==resul[i][0])){
                 document.getElementById("autoGen").innerHTML += "<div class='entrada impar'>"
                                                              +  "<h3 class='compañia w-100 mx-5'>"+resul[i][2]+"</h3>"
