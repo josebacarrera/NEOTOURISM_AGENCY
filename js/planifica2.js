@@ -16,7 +16,7 @@ hoteles=[[0,'hotel0','Hotel Grizzly','05:45','300€'],[0,'hotel0','Feliz estanc
 
 actividades=[[0,'actividad0','actividad Grizzly','05:45','300€'],[0,'actividad0','Feliz estancia','21:35','700€'],[0,'actividad0','actividad Spotlight','14:45','250€'],[0,'actividad0','Confort Total','03:00','1400€'],[
     1,'actividad1','actividad Grizzly','23:05','1300€'],[1,'actividad1','Confort Total','04:15','190€'],[1,'actividad1','actividad Spotlight','07:40','4000€'],[
-    2,'actividad2','actividad Grizzly','05:35','200€'],[2,'actividad2','Feliz estancia','16:55','1350€'],[2,'actividad2','Confort Total','23:00','140€'],[
+    2,'actividad2','actividad Divertida','05:35','200€'],[2,'actividad2','Feliz estancia','16:55','1350€'],[2,'actividad2','Confort Total','23:00','140€'],[
     3,'actividad3','Confort Total','13:00','11110€'],[3,'actividad3','actividad Grizzly','15:05','100€'],[3,'actividad3','Feliz estancia','04:03','560€']]
 
 
