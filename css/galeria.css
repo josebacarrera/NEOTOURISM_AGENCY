@@ -50,6 +50,7 @@
         
     }
 
+    /*Arreglo de carousel en movil*/
     .carousel-inner {
        
         height: 30% !important;
@@ -58,7 +59,7 @@
     .carousel-item img {
           min-height:100%;
     }
-  
+    /*Fin de arreglo movil*/
 
     .container-videos {
         grid-template-columns: 1fr;
